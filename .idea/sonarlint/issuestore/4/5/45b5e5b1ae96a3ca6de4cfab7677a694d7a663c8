@@ -1,0 +1,11 @@
+
+E
+java:S1659 "(Declare "student_id" on a separate line.(Ê•Ëš8ÏÖ·Ë–.
+q	java:S116 "URename this field "student_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê•Ëš8ÏÖ·Ë–.
+]	java:S1259"<This block of commented-out lines of code should be removed.(ÌÙï±ÿÿÿÿÿ8ÆÕ—Ç–.
+A
+java:S1659 "$Declare "mEmail" on a separate line.(Ê•Ëš8ÅºúÆ–.
+B
+java:S1659 "%Declare "surname" on a separate line.(Ê•Ëš8ÏÖ·Ë–.
+D
+java:S1659 "'Declare "mPassword" on a separate line.(Ê•Ëš8ÅºúÆ–.

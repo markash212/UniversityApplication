@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "212709659131",
+    "firebase_url": "https://university-application-5e3e1.firebaseio.com",
+    "project_id": "university-application-5e3e1",
+    "storage_bucket": "university-application-5e3e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212709659131:android:8f068478ff8ca7c9e13b5e",
+        "android_client_info": {
+          "package_name": "com.university.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212709659131-o8a8nk5aqgunqc37ettorcu62dephb37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.university.application",
+            "certificate_hash": "6d34fca215f1993e004f6265c6c450ac8dc70d44"
+          }
+        },
+        {
+          "client_id": "212709659131-nctf3gim3rc55bhf44hb40g9lqptd1hq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkdRLPu_tGxZt7jyTgha0OnbYgA0cshkY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212709659131-nctf3gim3rc55bhf44hb40g9lqptd1hq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

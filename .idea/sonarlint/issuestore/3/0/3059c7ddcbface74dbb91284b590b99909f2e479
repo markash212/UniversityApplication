@@ -1,0 +1,7 @@
+
+t	java:S116"XRename this field "external_link" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â—í‹8ß¯Ç–.
+N
+java:S1128",Remove this unused import 'android.net.Uri'.(òêû‘ıÿÿÿÿ8º…‘Ë–.
+C
+java:S1172="&Remove these unused method parameters.(¦Œœ¢8üÇÇ–.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(úõŞ¸ÿÿÿÿÿ
