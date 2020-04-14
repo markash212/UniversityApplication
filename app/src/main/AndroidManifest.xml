@@ -26,6 +26,7 @@
         <activity android:name="com.university.application.Register">
         </activity>
         <activity android:name="com.university.application.MainActivity" />
+        <activity android:name="com.university.application.FloorMapActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

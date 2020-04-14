@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     LinearLayout timetable;
     LinearLayout external_link;
     LinearLayout library;
+    LinearLayout floor_map;
 
     TextView logout;
 
@@ -31,11 +32,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         timetable = (LinearLayout) findViewById(R.id.timetable);
         external_link = (LinearLayout) findViewById(R.id.external_link);
         library = (LinearLayout) findViewById(R.id.library);
+        floor_map = (LinearLayout) findViewById(R.id.floor_map);
         logout = (TextView) findViewById(R.id.logout);
         logout.setOnClickListener(this);
         timetable.setOnClickListener(this);
         external_link.setOnClickListener(this);
         library.setOnClickListener(this);
+        floor_map.setOnClickListener(this);
     }
 
     @Override
@@ -43,12 +46,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (v.getId() == R.id.timetable) {
             startActivity(new Intent(getApplicationContext(), TimeTableActivity.class));
         } else if (v.getId() == R.id.external_link) {
-            Utility.openBrower(this  ,"https://www.google.com");
+            Utility.openBrower(this, "https://www.google.com");
 
         } else if (v.getId() == R.id.library) {
             startActivity(new Intent(getApplicationContext(), LibraryActivity.class));
         } else if (v.getId() == R.id.logout) {
             showPopup();
+        } else if (v.getId() == R.id.floor_map) {
+            startActivity(new Intent(getApplicationContext(), FloorMapActivity.class));
         }
     }
 
